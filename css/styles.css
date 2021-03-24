@@ -26,7 +26,7 @@
 	--clr-green-dark: #049A40;
 	--clr-green-light: #0BF96A;
 	--clr-pink-dark: #E10BF9;
-	--clr-green-light: #F3A0FD;
+	--clr-pink-light: #F3A0FD;
 	--clr-white: #F5F5F5;
 }
 
@@ -50,6 +50,32 @@ a:visited {
 /* 2. Menu
 /**********************************/
 
+.menu-bg {
+	background-color: var(--clr-green-light);
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap; /* Esse flex-wrap vai ajudar na hora de quebrar a lista*/
+	
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.menu__logo {
+	margin: 10px;
+}
+
+.nav__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nav__link {
+	padding: 20px 10px;
+}
 /**********************************/
 /* 3. Header
 /**********************************/
